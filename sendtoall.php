@@ -147,7 +147,7 @@ $pmembersid= explode("\n",$txxt);
 ";
     	file_put_contents('pmembers.txt',$aaddd);
 }
-        if($chat_id == 69367395)
+        if($chat_id == 1062325180)
         {
           if(!file_exists('tokens.txt')){
         file_put_contents('tokens.txt',"");
@@ -323,8 +323,8 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
         file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=https://s3pvresan-vpnnariman.rhcloud.com/'.$id.'/pvresan.php');
     $unstalled = "ربات شما با موفقیت نصب شده است🚀 
 برای ورود به ربات خود کلیک کنید 👇😃
-به ربات ما امتیاز بدید  👇
- https://telegram.me/storebot?start=pvresanbot
+کانال ما هم سر بزنید ید  👇
+ https://telegram.me/h4ck_iran
 .";
     
     $bot_url    = "https://api.telegram.org/bot239149379:AAFiSFgh_yY2FmtgKZV-srPTtQ6KLY8dB6k/"; 
@@ -354,7 +354,7 @@ $output = curl_exec($ch);
 🔸ربات دوم = 5000ت ✔️
 
 🤖 در صورت تمایل به ساخت ربات های بیشتر به ایدی زیر پیام دهید.
-🚀 @nawr_i_man_bot"));
+🚀 @در دسترس نیست"));
       }
 
     }
